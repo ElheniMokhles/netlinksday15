@@ -1,0 +1,1028 @@
+<!--
+	Design By : 
+			- Karim Bakar
+	Code By   :
+			- Elheni Mokhles
+	Constribuations : 
+			- Asma Diouri
+			- Amine Garci
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NETLINKSDAY15</title>
+	<link rel="shortcut icon" href="images/icon.PNG" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="loading">
+		<article class="word">Loading</article> 
+		<div class="side1"></div>
+		<div class="side2"></div>
+		<div class="side3"></div>
+		<div class="side4"></div>
+		<div class="side5"></div>
+		<div class="side6"></div>
+		<div class="side7"></div>
+		<div class="side8"></div>
+		<div class="side9"></div>
+		<div class="side10"></div>
+		<div class="side11"></div>
+		<div class="side12"></div>
+	</div>
+	<div class="menu">
+	</div>
+	<div class="section" id="s1">
+			
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '487218088065671',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "http://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+function sendAnswer(message,photo){
+	FB.login(function(){
+	 	FB.api('/me/feed', 'post', {
+	 		message: message,
+	 		link : "http://www.netlinksday.com",
+        	picture : photo
+	 	},function(){
+	 		$(".question-holder").fadeOut();
+	 	});
+	}, {scope: 'publish_actions'});
+}
+</script>
+		<img onclick="trans(2)" class="scroll arrow-down" src="http://www.ben-et-nana.com/img/arrow.png">
+
+		<section class="left">
+			<div class="dark-bg">
+				<div>
+					<img src="images/bg-dark1.png">
+				</div>
+				<div>
+					<img src="images/bg-dark2.png">
+				</div>
+				<div>
+					<img src="images/bg-dark3.png">
+				</div>
+				<div>
+					<img src="images/bg-dark4.png">
+				</div>
+			</div>
+			<div class="netlinksday-logo not-menu">
+				<img src="images/netlinksdaylogo.PNG">
+				<div class="text-logo">
+					NATIONAL DAY OF ICT 2015
+				</div>
+			</div>
+			<div class="pers-logo  not-menu">
+				<img src="images/pers.PNG">
+			</div>
+			<div class="day  not-menu">
+				<b>11</b>&<b>12</b> APRIL <b>2015</b>
+			</div>
+			<div class="place  not-menu">
+				CITÉ DE SCIENCE<br>
+				& LE <b>COLISÉE</b>
+			</div>
+
+			
+
+			<div class="menu-s">
+				<ul>
+					<li onclick="trans(1)">HOME</li>
+					<li onclick="trans(3)">April the 11th</li>
+					<li onclick="trans(4)">April the 12th</li>
+					<LI onclick="trans(5)">SPEAKERS</LI>
+					<LI onclick="trans(6)">ARTISTIC SHOWS</LI>
+					<LI onclick="trans(7)">VISION CHALLENGE</LI>
+					<LI onclick="trans(8)">GALLERY</LI>
+					<LI onclick="trans(9)">SPONSORS</LI>
+					<Li onclick="trans(10)">CONTACT</Li>
+					<LI>
+						<a href="https://www.facebook.com/events/1636967636523262/" target="_blank">
+							EVENT ON FACEBOOK
+						</a>
+					</LI>
+				</ul>
+			</div>
+		</section>
+
+			
+
+		
+
+		<div class="question-holder" style="z-index:999999">
+			<div class="close-question">
+				close
+			</div>
+
+			<div class="question">
+
+				<article>
+					<img id="photo0"  src="images/cup.png">
+					<div>
+						This is a <div onclick="add(1,1)">Half empty Cup</div> or a 
+						<div onclick="add(1,2)">Half full Cup</div>?
+					</div>
+				</article>
+				
+				<article>
+					<img  id="photo1" src="images/lineorsquare.png">
+					<div>
+						This is a <div onclick="add(2,1)">Line</div> or a 
+						<div onclick="add(2,2)">Square</div>?
+					</div>
+				</article>
+				<article>
+					<img id="photo2"  src="images/cubeorsquare.png">
+					<div>
+						This is a <div onclick="add(3,1)">Square</div> or a
+						<div onclick="add(3,2)">Cube</div>?
+					</div>
+				</article>
+				<article>
+					<img  id="photo3" src="images/moon.png">
+					<div>
+						This is a <div onclick="add(4,1)">Circle</div>,
+						<div onclick="add(4,2)">Ball</div> or a 
+						<div onclick="add(4,3)">Moon</div>?
+					</div>
+				</article>
+				<div id="dontshow">
+					<input type="checkbox" id="dontshowcheckbox"> Don't show this again	
+				</div>
+			</div>
+		</div>
+
+		<section class="right">
+			<div class="title1">
+				WELCOME <br> TO NETLINKSDAY15
+			</div>
+			<div>
+				NATIONAL DAY OF INFORMATION AND COMMUNICATION TECHNOLIGIES
+			</div>
+			<div class="hands">
+			</div>
+		</section>
+	</div>
+	<div class="section" id="s2" style="top: 110%;">
+		<div class="title2" style="right:-1%">
+			2 Days, 2 Places
+		</div>
+		<img src="images/map.jpg" style="width:100%;height:100%">
+	</div>
+	<div class="section" id="s3" style="top: 220%;">
+		<div class="title2" style="right:-1%">
+			April the 11th
+		</div>
+		<h1 style="
+		    margin: 20px 5% -4% 6%;
+		    font-size: 2.8em;
+		    text-align: center;
+		    color: #e8501f;
+		">NetLinksDay inceptions : Workshops &amp; Expos</h1>
+		<div class="w-table">
+			<div class="workshop">
+				<img src="images/wael.jpg">	
+				<h1>Walaa Aniba et Wael Belhaj</h1>
+				<h2>Smart and safe headphones</h2>
+				<p>
+					Netlinks has programmed for you this Saturday the 11th of April 2015 at 3PM an hour-long  workshop presented by Two young Tunisian inventors.<br>
+					Join us and have a unique experience full of knowledge and discovery.<br>
+					Wael and Walaa will present initially, their invention "Smart and Safe Audio System And its application smart and safe headphones ''. Then, they will share with you their experience with this inventon, as well as the technical challenges they have encountered.<br>
+	            	During this workshop, you'll get to see this invention in these two versions namely invention and finished product.<br>
+					So be there and don't miss the opportunity! 
+				</p>
+			</div>
+			<div class="workshop">
+				<img src="images/bsm.jpg">
+				<h1>Bassem Hatira </h1>
+				<h2>Oculus Rift and Gaming</h2>
+				<p>
+					He works  as an Associate Professor at ESPRIT University in Tunisia.<br>
+					He is a Software Engineer graduated since 2013.<br>
+					He is a member at Google Developers Group Tunis, and actually working on virtual reality, especially Oculus Rift. He is also iOS Developer since 2012.<br>
+					Bassem Hatira will present a workshop on "the oculus rift and gaming". It will be held on Saturday, 11/04/2015 at 14h in the City of Sciences of Tunis. This workshop will present the innovation brought by the Oculus Rift in the world of virtual reality and the new perspectives in the world of video games.<br>
+					Be on time to discover the world of virtual reality, Saturday, 11/04/2015 in the Science City.
+
+				</p>
+			</div>
+			<div class="p-table" style="background-color:transparent;overflow-y:hidden;position:relative;position: relative;align-items: center;justify-content: flex-start;">
+				<div class="p-row" style="height:90%">
+					<div class="para">
+						<div id="petitdiam">
+							<div>8h</div>
+						</div> 
+						<p>Reception and registration</p>
+					</div>
+					<img src="http://www.ben-et-nana.com/img/arrow.png" style="width:30px">
+					<div class="para">
+						<div id="petitdiam">
+							<div>9h</div>
+						</div> 
+						<p>Opening ceremony</p>
+					</div>
+					<img src="http://www.ben-et-nana.com/img/arrow.png" style="width:30px">
+					<div class="para">
+						<div id="petitdiam">
+							<div>-</div>
+						</div> 
+						<p>Workshops</p>
+					</div>
+					<img src="http://www.ben-et-nana.com/img/arrow.png" style="width:30px">
+					<div class="para">
+						<div id="petitdiam">
+							<div>-</div>
+						</div> 
+						<p>Exhibition of projects</p>
+					</div>
+					<div class="para">
+						<div id="petitdiam">
+							<div>-</div>
+						</div> 
+						<p>Coffee break</p>
+					</div>
+					<img src="http://www.ben-et-nana.com/img/arrow.png" style="width:30px">
+					<div class="para">
+						<div id="petitdiam">
+							<div>-</div>
+						</div> 
+						<p>Workshops</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="s4" style="top: 330%;">
+		<div class="title2" style="right:-1%">
+			April the 12th
+		</div>
+
+
+		
+		<div class="diam">
+			<p class="d1">8</p>
+		</div>
+
+		<p class="hours">HOURS</p>
+		<p id="to_live">TO LIVE THE NETLINKSDAY</p>
+
+
+		<div class="p-table">
+			<div class="p-row">
+				<div class="para">
+					<div id="petitdiam">
+						<div>8h</div>
+					</div> 
+					<p>Reception & registration</p>
+				</div>
+				<div class="para">
+					<div id="petitdiam">
+						<div>9h</div>
+					</div> 
+					<p>Opening ceremony</p>
+				</div>
+				<div class="para">
+					<div id="petitdiam">
+						<div>9:15</div>
+					</div> 
+					<p>Conferences and shows</p>
+				</div>
+				<div class="para">
+					<div id="petitdiam">
+						<div>11:20</div>
+					</div> 
+					<p>Coffee break</p>
+				</div>
+			</div>
+			<div class="p-row">
+				<div class="para">
+					<div id="petitdiam">
+						<div>11:45</div>
+					</div> 
+					<p>Conferences and shows</p>
+				</div>
+				<div class="para">
+					<div id="petitdiam">
+						<div>13h</div>
+					</div> 
+					<p>Lunch break</p>
+				</div>
+				<div class="para">
+					<div id="petitdiam">
+						<div>14h</div>
+					</div> 
+					<p>Conferences and shows</p>
+				</div>
+				<div class="para">
+					<div id="petitdiam">
+						<div>17:30</div>
+					</div> 
+					<p>Closing ceremony</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="s5" style="top: 440%;">
+		<div class="title2">
+			Speakers
+		</div>
+		<div class="speaker-detail" id="sd1">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/bassem.jpg">
+				<p>		
+				<h1>Bassem Bouguerra</h1>	
+				<div class="supject">
+					Gamification
+				</div>	
+				He is non-resident researcher at the Rafik Hariri Center for the Middle East. After the uprising in Tunisia, Bouguerra returned to his home country of the United States and began the Tunisian institutional reform (TIR), an organization that defends the reform of the security by improving relations between police and citizens . Bouguerra is a Computer Engineer. In 2000, he left prestigious Military Academy of Tunisia and moved to California where he studied software April the 12ming at California State University Long Beach. After graduation, he worked for an advertising agency before joining Yahoo! Bouguerra recently helped create Youth Can a Tunisian popular movement to engage young people in politics and to include them in the process of policy making.
+				</p>
+
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd2">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/mustapha.jpg">
+				<p>		
+				<h1>Mustapha Boubekri </h1>		
+				<div class="supject">
+					People at the center of innovation
+				</div>
+				Consultant, coach, and entrepreneur with 8 years experience in Telecom and Testing software in a large telecommunications group in Ile de France and Tunis.<br>
+				Founder of MB Alliance, a consulting and management training and Innovation Co-Founder Eduxlab, specialized in digital education.<br>
+				Mustapha has a degree in Telecommunications from ENSEEIHT of Toulouse, MBA from IAE Paris. It also is certified PMP.
+
+				</p>
+
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd3">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/tarek.jpg">
+				<p>		
+				<h1>Tarek Djebeli</h1>		
+				<div class="supject">
+						Collaborations and conflicts inter community in open source
+					</div>
+				With over seven years experience as a Freelancer Drupal developer and designer, tarek specializes in web design and the integration of Drupal content management systems.<br>
+				He spent more than 3 years as a developer PhpList Front end.<br>
+				Member of the Drupal Association, Tarek was a volunteer Amesterdam DrupalCon.<br>
+				He graduated from the Higher Institute of Technological Studies in Mahdia and cerifié LPIC 1.
+				</p>
+
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd4">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/amine.jpg">
+				<p>		
+				<h1>Amine Chouaieb</h1>		
+				<div class="supject">
+						The future of the internet
+					</div>
+				Old ESCP Europe and an engineering degree from PIA / ESTP, Amine has worked as a consultant in several large accounts before launching his own company CHIFCO.<br>
+				Based between Paris and Tunis, Chifco is a technology company specializing in the field of the Internet of Things.<br>
+				Amine is a member of the Global Shapers and member of the board of the foundation symbols. Amine is an active young entrepreneur who is involved in the establishment of a new ecosystem based on technology and innovation in the Mediterranean.
+
+				</p>
+
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd5">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/salah.jpg">
+				<p>		
+				<h1>Salah Amer</h1>
+				<div class="supject">
+					Increased human
+				</div>
+				Since his early age, Salah Has been keen of computers .And his career is the best proof of this huge and deep passion.<br>
+				He was an expert on Microsoft technologies until 2011, when he decided to work with a large bank as Architect and Technical Expert.<br>
+  				He published many articles and gave several international conferences. As such he was awarded the Microsoft MVP on embedded technologies.<br>
+  				He participated in the training of future engineers by teaching them parallel development for the creation of autonomous systems Windows Embedded. Due to His evolving expertise into robotics and autonomous systems, he joined the company Aldebaran in 2011. Now, he is the head of the company's demonstration department there. His team aims to create interactive applications for the Nao robot.
+
+				</p>
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd6">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/mounira.jpg">
+				<p>		
+				<h1>Mounira Hamdi</h1>		
+				<div class="supject">
+					Africa: the cradle of innovation?			
+				</div>
+				Mounira Hamdi is an independent consultant in web communication strategies and event organizer.
+				She taught for four years in the bigest Ecoles on the themes of community management, online reputation of brands and people, digital strategies and crisis communication on social media.<br>
+				It is invested on event projects as co-organizer of conferences Labcom (France), Webdays (events in Africa and the Middle East on the themes of entrepreneurship and ICT) and Tuni'SEO (Tunisian congress specializing in Search Marketing).<br>
+				Mounira is co-author of the books: "Managing reputation online, 2011" Dunod editions and "Bad Buzz, manage a crisis on social media, 2013" published by Eyrolles.
+
+
+				</p>
+
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd10">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/fadhel.jpg">
+				<p>		
+				<h1>Fadhel guiga</h1>		
+				<div class="supject">
+					The future of e-education in Tunisia
+				</div>
+				Fadhel was an organizer with Startup Weekends. He has worked with Federal-Mogul Corporation on a project enabling managers to make decisions quickly.<br>
+				Currently he is working on other projects among them the USB Glove Project that facilitates writing in Arabic and Hebrew.<br>
+				He is graduated from ENPC MBA of Paris - ENPC School of International Management
+
+
+				</p>
+
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd11">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/alaeddine.jpg">
+				<p>		
+				<h1>Alaeddine Azaiez </h1>	
+				<div class="supject">
+						Technology and graphic design
+					</div>	
+				After a four-year course as an aeronautical engineer in a multinational company based in Tunisia,the entrepreneurial experience of Alaeddine was born.<br>
+
+				He is the founder and CEO of Ozone corp, presentation design company, the first in Tunisia specialized in creating solutions for corporate presentations and individuals.<br>
+				It also provides training sessions.<br>
+
+				Alaeddine is a well-known speaker with a  multitude of highly qualified conferences presented in several occasions.<br>
+				</p>
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd12">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/lilia.jpg">
+				<p>		
+				<h1>Lilia Sfaxi</h1>	
+				<div class="supject">
+						Thinking Big
+					</div>	
+				Doctor in Computer Science.<br>
+				Currently, she is a permanent assistant to the INSAT.<br>
+				After her studies in engineering software, Lilia has continued her doctoral studies in Information Technology at the Faculty of Sciences of Tunis and the University of Grenoble.<br>
+				She had a one-year course at the Polytechnic Institute of Grenoble on Micro and Nano Electronics.
+
+
+				</p>
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd13">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/wael.jpg">
+				<p>		
+				<h1>Walaa Aniba & Wael Belhaj</h1>
+				<div class="supject">
+					Inventions and perspectives of scientific research in Tunisia
+				</div>
+
+				Walaa Aniba is a young Tunisian inventor who has several inventions in various fields such as road safety, information technology and agriculture.<br>
+				Her invention "Smart and Safe Headphones" took the 5th place in the Stars Of Science April the 12 with a level of implementation and design that reached 87%.<br>
+				She was selected from 8,000 inventors and was the only representative of Tunisia and Africa in this scientific April the 12.<br>
+				Her Smart and Safe Headphones project entitled "Amiica" aims to protect pedestrians and drivers from the accidents caused by the use of headphones and music devices.<br><br>
+				Belhaj wael is a young Tunisian inventor, valedictorian of ISET Rades in mechanical engineering and a graduate engineer from ENIT.<br>
+				In 2010, he was among the first 27 candidates chosen by Stars Of Science to carry on his invention in Qatar under the supervision of Qatar Foundation. He had the 19th place over 7000  inventors with his Adaptive Speed retarder invention (Adaptive self Powered Speed bump).<br>
+				In 2011 he took the 2nd prize in science and technology among 347 participants in the ATB Challenge with his "Free public lighting system."<br>
+				He participated to realize several inventions on national and international levels. In 2014, he supervised the inventor Walaa Aniba whose invention took the 5th place among 8000 inventors in sixth edition of Stars Of Science.<br>
+				Currently wael is working on several projects such as failure analysis system of machines and intelligent control by sound waves.
+
+
+				</p>
+			</div>
+		</div>
+
+		<div class="speaker-detail" id="sd14">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/youssef.jpg">
+				<p>		
+				<h1>Youssef Bechaouch</h1>
+				<div class="supject">
+					Comment mettre la responsabilité et la solidarité au cœur de l’activité d’un opérateur technologique comme Orange Tunisie?
+				</div>
+
+				Diplômé en Finance (Master Paris X, France), Youssef Beschaouch a débuté sa carrière dans la finance de marché (BNP Paribas et Plantureux) puis dans le conseil en ISR et RSE (Terra Nova, Maqassar, Ecodurable). De retour en Tunisie en 2004 et après une expérience d’une année au sein d’enda inter-arabe, IMF leader en Tunisie, où il a été en charge de la communication et des partenariats, Youssef a par la suite intégré Ficom, cabinet conseil en stratégie et organisation. En tant que consultant senior puis directeur de projets, il a participé au développement commercial du cabinet, a été responsable de la communication et des relations avec les partenaires et a conduit diverses missions pour des clients publiques et privés, tunisiens et étrangers, et notamment dans le domaine de la RSE. Depuis fin 2011, Youssef a rejoint Orange Tunisie, où il est en charge du déploiement de la stratégie RSE et Mécénat.
+
+
+				</p>
+			</div>
+		</div>
+
+		<div style="width:100%" class="table">
+		<div class="row row1">
+			<article onclick="$('#sd1').fadeIn(300)">
+				<div class="picture">
+					<img src="images/bassem.jpg">
+				</div>
+				<div class="name">
+					Bassem Bouguerra 
+				</div>
+				
+			</article>
+			<article  onclick="$('#sd10').fadeIn(300)">
+				<div class="picture">
+					<img src="images/fadhel.jpg">
+				</div>
+				<div class="name">
+					Fadhel guiga
+				</div>
+				
+			</article>
+			<article>
+				<div class="picture" onclick="$('#sd2').fadeIn(300)">
+					<img src="images/mustapha.jpg">
+				</div>
+				<div class="name">
+					Mustapha Boubekri 
+				</div>
+				
+			</article>
+			<article>
+				<div class="picture" onclick="$('#sd14').fadeIn(300)">
+					<img src="images/youssef.jpg">
+				</div>
+				<div class="name">
+					Youssef Bechaouch 
+				</div>
+				
+			</article>
+
+		</div>
+		<div class="row row2">
+				<article onclick="$('#sd3').fadeIn(300)">
+					<div class="picture">
+						<img src="images/tarek.jpg">
+					</div>
+					<div class="name">
+						Tarek Djebeli 
+					</div>
+					
+				</article>
+				<article onclick="$('#sd11').fadeIn(300)">
+					<div class="picture">
+						<img src="images/alaeddine.jpg">
+					</div>
+					<div class="name">
+						Alaeddine Azaiez 
+					</div>
+					
+				</article>
+
+				<article onclick="$('#sd12').fadeIn(300)">
+					<div class="picture">
+						<img src="images/lilia.jpg">
+					</div>
+					<div class="name">
+						Lilia Sfaxi
+					</div>
+					
+				</article>
+				<article onclick="$('#sd4').fadeIn(300)">
+					<div class="picture">
+						<img src="images/amine.jpg">
+					</div>
+					<div class="name">
+						Amine Chouaieb
+					</div>
+					
+				</article>
+		</div>
+		<div class="row row3"> 
+			
+			<article   onclick="$('#sd13').fadeIn(300)">
+				<div class="picture">
+					<img src="images/wael.jpg">
+				</div>
+				<div class="name">
+					Walaa & Wael
+				</div>
+				
+			</article>
+			<article onclick="$('#sd6').fadeIn(300)">
+				<div class="picture">
+					<img src="images/mounira.jpg">
+				</div>
+				<div class="name">
+					Mounira Hamdi
+				</div>
+				
+			</article>
+
+		</div>
+		</div>
+	</div>
+	<div class="section" id="s6" style="top: 550%;">
+			<div class="title2" style="right:-1%">
+				ARTISTIC SHOWS
+			</div>
+			<div class="go-right">
+				>
+			</div>
+			<div class="go-left">
+				<
+			</div>
+			<div class="artists">
+				<article class="artist">
+					<div class="photo">
+						<img src="images/Soltan.png" >
+					</div>
+					<div class="name1">
+						<div class="name2">Amel sdiri</div>
+					</div>
+				</article>
+
+				<article class="artist">
+					<div class="photo">
+						<img src="images/funcky.png" style="left:-10%">
+					</div>
+					<div class="name1">
+						<div class="name2" style="top: 43%;">Funky <br> Intention</div>
+					</div>
+				</article>
+
+				<article class="artist">
+					<div class="photo">
+						<img src="images/anis.jpg">
+					</div>
+					<div class="name1">
+						<div class="name2">Anis Gharbi</div>
+					</div>
+					
+				</article>
+				
+				
+				<article class="artist">
+					<div class="photo">
+						<img src="images/sus.png">
+					</div>
+					<div class="name1">
+						<div class="name2">SUS4</div>
+					</div>
+				</article>
+				<article class="artist">
+					<div class="photo">
+						<img src="images/lilia.png">
+					</div>
+					<div class="name1">
+						<div class="name2"  style="top: 43%;">Lilia <br> Kamoun</div>
+					</div>
+					
+				</article>
+				<article class="artist">
+					<div class="photo">
+						<img src="images/med.jpg">
+					</div>
+					<div class="name1">
+						<div class="name2">Mohamed Ali <br> Triki</div>
+					</div>
+					
+				</article>
+
+				<article class="artist">
+					<div class="photo">
+						<img src="images/arabica.png">
+					</div>
+					<div class="name1">
+						<div class="name2">Arabica</div>
+					</div>
+					
+				</article>
+				
+			</div>	
+	</div>
+	<div class="section" id="s7" style="top: 660%;">
+		<div class="title2" style="right:-1%">
+			VISION CHALLENGE
+		</div>
+
+		<div class="bg-chess">
+			<img src="images/chess.png">
+		</div>
+
+
+		<div class="ch-pictures-holder map-holder" style="display:block">
+			<div class="btn-lr">
+				<img src="images/left.png" onclick="ch_left()">
+				<img src="images/right.png" onclick=" ch_right()">
+			</div>
+			<div class="close-map" style="z-index:10">
+				close
+			</div>
+			<div class="map">
+				<div class="ch-photo">
+					<article>
+						<img src="images/challenge1.jpg">
+					</article>
+					<article>
+						<img src="images/challenge2.jpg">
+					</article>
+					<article>
+						<img src="images/challenge3.jpg">
+					</article>
+					<article>
+						<img src="images/challenge4.jpg">
+					</article>
+					<article>
+						<img src="images/challenge5.jpg">
+					</article>
+					<article>
+						<img src="images/challenge6.jpg">
+					</article>
+					<article>
+						<img src="images/challenge7.jpg">
+					</article>
+					<article>
+						<img src="images/challenge8.jpg">
+					</article>
+				</div>
+			</div>
+		</div>
+
+		<div id="corps">
+
+
+		<div class="ch-pictures-btn" onclick="$('.ch-pictures-holder').fadeIn();$('.map').fadeIn()">
+          <div >See Pictures</div>
+  		</div>
+		<div id="global">
+			<h2>Vision challenge with the cooperation of Orange Tunisie</h2>
+			<p style="max-height: 200px;overflow-y: scroll;">
+			Respecting the annual traditions of NetLinksDay, NetLinks once again organizes the " Vision  Challenge": A challenge open  to everyone where any participant, with all his creativity and his expertise, must find an innovative way to change the today's modern technology. Under the same theme as NetLinksDay'15 "Perspectives," the 24h challenge consists into integrating a new value into ubiquitous modern technological trends of our daily lives. 
+			<br>
+			The challenge begins with the presence of 12 candidates. The first 7 hours of the challenge will be critica. Having outdated and neglected technological gadgets, each candidate with his own perspective, must be inspired to find a project idea that is both innovative and above all useful. So he will prepare a short five-minute presentation that will be exposed subsequently to the Jury. This step will lead to the qualification of 8 candidates to the second session.
+			<br><br>
+			The remaining participants still have to dig more on their ideas and prepare the following: <br>
+			• Presentation .ppt <br>
+			• Business Model Canvas <br>
+			• Detailed Description <br>
+			<br><br>
+			Once time expires, the jury members will collect the documents provided and will choose the 8 finalists according to the following criteria:<br><br>
+
+			• Progress in the project<br>
+			• Innovation & Utility<br>
+			• Managerial Study<br>
+			• Overall presentation quality: Slides, Language …<br>
+			<br><br>
+			The finalists will finish their business plan and will submit the whole project three days after the challenge. Therefore, the jury will go to the deliberation of the winning idea under the following criteria:<br>
+			• Profitability<br>
+			• Appropriateness product / market<br>
+			• Innovation<br>
+			The winner will be announced at NetLinksDay'15 and the prize will be announced at the challenge.
+			</p>
+			<h1>Juries :</h1>
+			<br>
+			<div class="juries">
+				<div class="trapeze" onclick="$('#sd9').fadeIn(300)">
+					<img src="images/afef.PNG">
+				</div>
+					<div class="rectangle">
+
+	
+				<div >Afef Boulaares</div>			
+				</div>
+
+				<div class="trapeze" onclick="$('#sd8').fadeIn(300)">
+					<img src="images/elyes.jpg" style="margin-top: -30%;">
+				</div>
+				<div class="rectangle">
+					<div >Elyes chater</div>			
+				</div>
+
+				<div class="trapeze" onclick="$('#sd7').fadeIn(300)">
+					<img src="images/farouas.jpg" style="margin-top: -30%;">
+				</div>
+				<div class="rectangle">
+					<div >Chaabane Ferdaous</div>			
+				</div>
+	
+				</div>
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd7">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/farouas.jpg">
+				<p>		
+				<h1>Chaabane Ferdaous</h1>		
+				Chaabane Ferdaous is currently Assistant professor at Sup’Com, Tunisia. She received the Engineer degree in Telecommunications in 1999 from Sup’Com and the Ph.D. degree in Signal and Image Processing in 2004 from The University of Paris XI. She is member of the COSIM (Communication Signal and Image processing) research laboratory and her study interests are satellite image processing, analysis and interpretation especially for multi-temporal and multi-sensors applications.<br>
+				She coordinated 3 international research projects and is presently member of the Sup’com team working on the FP7 ClusMED about the Reinforcement of ICT Regulations and ICTs for trackling Societal Challenges links in Europe and Mediterranean countries.<br>
+				In 2011 she was in charge of the organization of the wide Sup’Com campus project known as Challenge Projects in Entrepreneurship which is an entrepreneurial teaching April the 12 in close collaboration with industry partners encouraging students to add greater knowledge in business and society. She is actually working as computer vision consultant in EBSYS Company.
+				</p>
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd8">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/elyes.jpg">
+				<p>		
+				<h1>Elyes Chater</h1>		
+				Entrepreneur and technical manager<br>
+				Old student of ENJIM & Goblins for Master Pro IDE in Gobelins Paris<br>
+				Senior technician in computer systems and networks<br>
+				Game designer<br>
+				Project manager<br>
+				</p>
+			</div>
+		</div>
+		<div class="speaker-detail" id="sd9">
+			<div class="close-map" style="right: 1%;" onclick="$('.speaker-detail').fadeOut(300)">
+				close
+			</div>
+			<div class="infos">
+				<img src="images/afef.PNG">
+				<p><h1>Afef Boulaares</h1>		
+				CSR accountant(Corporate social responsibility)<br>
+				Representative of the Founder Partner of ESPRIT incubator 
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="s8" style="top: 770%;">
+		<div class="title2" style="right:-1%">
+			GALLERY
+		</div>
+		<div class="g-holder">
+			<div class="btn-lr">
+				<img src="images/left.png" onclick="g_left()">
+				<img src="images/right.png" onclick=" g_right()">
+			</div>
+			<div class="g-photo">
+				<article>
+					<section>
+						<div>Meeting before the casting</div>
+					</section>
+					<img src="images/casting.jpg">
+				</article>
+				<article>
+					<section>
+						<div>Staff meeting</div>
+					</section>
+					<img src="images/reunion.jpg">
+				</article>
+				<article>
+					<section>
+						<div>When mirror reflect our perspective</div>
+					</section>
+					<img src="images/mirror.jpg">
+				</article>
+				<article>
+					<section>
+						<div>Meeting ex-president and president Netlinks association</div>
+					</section>
+					<img src="images/khalil_aisha.jpg">
+				</article>
+				<article>
+					<section>
+						<div>Meeting at collisé..only 6 days left to go</div>
+					</section>
+					<img src="images/colis.jpg">
+				</article>
+				<article>
+					<section>
+						<div>Netlinks VISION Challenge : Phase 1</div>
+					</section>
+					<img src="images/challenge1.jpg">
+				</article>
+				<article>
+					<section>
+						<div>Netlinks VISION Challenge : Phase 1</div>
+					</section>
+					<img src="images/challenge2.jpg">
+				</article>
+				<article>
+					<section>
+						<div>Netlinks VISION Challenge : Phase 2</div>
+					</section>
+					<img src="images/challenge3.jpg">
+				</article>
+				
+			</div>
+		</div>
+	</div>
+	<div class="section" id="s9" style="top: 880%;">
+		<div class="title2" style="right:-1%">
+			SPONSORS
+		</div>
+		<img src="images/sponsors.png" style="width:70%;margin-top:11%">	
+	</div>
+	<div class="section" id="s10" style="top: 990%;">
+		<div class="title2" style="right:-1%">
+			CONTACT
+		</div>
+		<div id="social-medias">
+			<a href="https://www.facebook.com/NetlinksClub" target="_blank">
+			<div class="fb">
+				<svg  class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height:100px;width:100px;">
+					<circle id="facebook-square" cx="50" cy="50" r="48" class="outer-shape" style="opacity:1;fill:#68a0d5;"></circle>
+					<path class="inner-shape" style="opacity:1;fill:#fff;" transform="translate(25,25) scale(0.5)" d="M82.667,1H17.335C8.351,1,1,8.351,1,17.336v65.329c0,8.99,7.351,16.335,16.334,16.335h65.332 C91.652,99.001,99,91.655,99,82.665V17.337C99,8.353,91.652,1.001,82.667,1L82.667,1z M84.318,50H68.375v42.875H50V50h-8.855V35.973 H50v-9.11c0-12.378,5.339-19.739,19.894-19.739h16.772V22.3H72.967c-4.066-0.007-4.57,2.12-4.57,6.078l-0.023,7.594H86.75 l-2.431,14.027V50z"></path>
+				</svg>
+				
+				<div>www.facebook.com/NetlinksClub</div>
+			</div>
+			</a>
+			<a href="https://twitter.com/netlinksclub?lang=en" target="_blank">
+			<div class="twtr">
+				<svg id="twitter" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 100px; width: 100px;">
+					<circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: #85bef3;">
+					</circle>
+					<path class="inner-shape" style="opacity: 1; fill: #ffffff;" transform="translate(25,25) scale(0.5)" d="M99.001,19.428c-3.606,1.608-7.48,2.695-11.547,3.184c4.15-2.503,7.338-6.466,8.841-11.189 c-3.885,2.318-8.187,4-12.768,4.908c-3.667-3.931-8.893-6.387-14.676-6.387c-11.104,0-20.107,9.054-20.107,20.223 c0,1.585,0.177,3.128,0.52,4.609c-16.71-0.845-31.525-8.895-41.442-21.131C6.092,16.633,5.1,20.107,5.1,23.813 c0,7.017,3.55,13.208,8.945,16.834c-3.296-0.104-6.397-1.014-9.106-2.529c-0.002,0.085-0.002,0.17-0.002,0.255 c0,9.799,6.931,17.972,16.129,19.831c-1.688,0.463-3.463,0.71-5.297,0.71c-1.296,0-2.555-0.127-3.783-0.363 c2.559,8.034,9.984,13.882,18.782,14.045c-6.881,5.424-15.551,8.657-24.971,8.657c-1.623,0-3.223-0.096-4.796-0.282 c8.898,5.738,19.467,9.087,30.82,9.087c36.982,0,57.206-30.817,57.206-57.543c0-0.877-0.02-1.748-0.059-2.617 C92.896,27.045,96.305,23.482,99.001,19.428z"></path>
+				</svg>
+			<div>@netlinksclub</div>
+
+			</div>
+			</a>
+			<a href="https://www.youtube.com/user/ClubNetlinks" target="_blank">
+			<div class="yt">
+				<svg id="youtube" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 100px; width: 100px;">
+					<circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: #e83f73;"></circle>
+					<path class="inner-shape" style="opacity: 1; fill: #ffffff;" transform="translate(25,25) scale(0.5)" d="M97.284,26.359c-1-5.352-5.456-9.346-10.574-9.839c-12.221-0.784-24.488-1.42-36.731-1.428 c-12.244-0.007-24.464,0.616-36.687,1.388c-5.137,0.497-9.592,4.47-10.589,9.842C1.567,34.058,1,41.869,1,49.678 s0.568,15.619,1.703,23.355c0.996,5.372,5.451,9.822,10.589,10.314c12.226,0.773,24.439,1.561,36.687,1.561 c12.239,0,24.515-0.688,36.731-1.479c5.118-0.497,9.574-5.079,10.574-10.428C98.43,65.278,99,57.477,99,49.676 C99,41.88,98.428,34.083,97.284,26.359z M38.89,63.747V35.272l26.52,14.238L38.89,63.747z"></path>
+				</svg>
+				<div>www.youtube.com/user/ClubNetlinks</div>
+			</div>
+			</a>
+			<a href="http://www.netlinksclub.com" target="_blank">
+			<div class="sw">
+				<svg id="ie" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 100px; width: 100px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: #929292;"></circle>
+				<path class="inner-shape" style="opacity: 1; fill: #ffffff;" transform="translate(25,25) scale(0.5)" d="M74.963,57.575h23.78C98.927,55.925,99,54.241,99,52.518c0-8.081-2.169-15.661-5.956-22.189 c3.917-10.408,3.777-19.24-1.466-24.519c-4.987-4.965-18.364-4.158-33.487,2.539c-1.118-0.085-2.248-0.128-3.389-0.128 c-20.757,0-38.172,14.284-42.987,33.531c6.511-8.336,13.362-14.381,22.513-18.783c-0.832,0.78-5.687,5.607-6.504,6.424 C3.593,53.518-4.018,85.031,4.171,93.221c6.225,6.223,17.505,5.172,30.461-1.174c6.024,3.068,12.844,4.798,20.069,4.798 c19.457,0,35.944-12.523,41.917-29.965H72.656c-3.298,6.083-9.746,10.223-17.148,10.223c-7.402,0-13.85-4.14-17.148-10.223 c-1.466-2.747-2.309-5.899-2.309-9.234v-0.073h38.912L74.963,57.575z M36.088,45.887c0.55-9.782,8.684-17.587,18.614-17.587 s18.064,7.805,18.614,17.587H36.09H36.088z M91.36,10.729c3.377,3.413,3.293,9.693,0.404,17.531 c-4.949-7.546-12.141-13.493-20.63-16.888C80.211,7.48,87.596,6.964,91.36,10.729z M10.418,91.668 c-4.31-4.311-3.01-13.36,2.542-24.262c3.456,9.698,10.191,17.84,18.873,23.085c-9.613,4.364-17.482,5.105-21.413,1.176 L10.418,91.668z"></path>
+				</svg>
+				<div>www.netlinksclub.com</div>
+			</div>
+			</a>
+			<a>
+			<div class="em">
+				<svg id="mail" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 100px; width: 100px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: #840733;"></circle>
+					<path class="inner-shape" style="opacity: 1; fill: #ffffff;" transform="translate(25,25) scale(0.5)" d="M50,1C22.938,1,1,22.938,1,50s21.938,49,49,49s49-21.938,49-49S77.062,1,50,1z M25.5,25.5h49 c0.874,0,1.723,0.188,2.502,0.542L50,57.544L22.998,26.041C23.777,25.687,24.626,25.499,25.5,25.5L25.5,25.5z M19.375,68.375v-36.75 c0-0.128,0.005-0.256,0.014-0.383l17.96,20.953L19.587,69.958C19.448,69.447,19.376,68.916,19.375,68.375L19.375,68.375z M74.5,74.5 h-49c-0.541,0-1.072-0.073-1.583-0.212l17.429-17.429L50,66.956l8.653-10.096l17.429,17.429C75.572,74.427,75.041,74.5,74.5,74.5 L74.5,74.5z M80.625,68.375c0,0.541-0.073,1.072-0.211,1.583L62.652,52.195l17.96-20.953c0.008,0.127,0.014,0.255,0.014,0.383 L80.625,68.375L80.625,68.375z"></path>
+				</svg>
+				<div>netlinksclubs@gmail.com</div>
+			</div>
+			</a>
+
+
+		</div>
+			<div class="facs">
+				Netlinks Clubs from INSAT,SUP'COM,ISET'COM,ENICAR,ISAMM,ENSI,IIT and ENSIT
+			</div>
+	</div>
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
